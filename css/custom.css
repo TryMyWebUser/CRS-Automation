@@ -44,10 +44,10 @@
 /************************************/	
 
 :root{
-	--primary-color			: #222222;
+	--primary-color			: #002D6C;
 	--secondary-color		: #F5F5F5;
 	--text-color			: #81848A;
-	--accent-color			: #FF9900;
+	--accent-color			: #C1C3C5;
 	--white-color			: #FFFFFF;
 	--divider-color			: #EBEBEB;
 	--dark-divider-color	: #FFFFFF1A;
@@ -3026,6 +3026,11 @@ header.main-header .header-sticky.active{
 	margin-bottom: 30px;
 	padding: 30px;
 	transition: all 0.3s ease-in-out;
+
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .page-services .service-item:hover{
